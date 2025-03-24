@@ -215,6 +215,43 @@ nav a img {
   bottom: 50px;
 }
 
+/*-----SECTION_PACK_2-----*/
+
+.packs-section {
+  background-color: #ebe3d5;
+  height: 350px; /* Tu peux ajuster la hauteur si nécessaire */
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Organisation en colonne : 1 ligne + 1 pack */
+  justify-content: center;
+  align-items: center; /* Centre les enfants horizontalement */
+}
+
+.packs-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px; /* Espace horizontal entre les 4 packs */
+}
+
+.pack-item,
+.pack-item-single {
+  text-align: center;
+  font-family: 'ubhuntu', sans-serif;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  font-size: 20px;
+}
+
+.packs-section img {
+  width: 100px; /* Taille des images */
+  height: auto;
+  margin-bottom: 10px; /* Espace entre l’image et le texte */
+  font-family: 'ubhuntu', sans-serif;
+  font-weight: 400;
+}
+
+
 /*-----SECTION_ENVOL-----*/
 
 .section-title-envol {
