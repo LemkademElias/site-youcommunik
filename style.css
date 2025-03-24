@@ -336,14 +336,15 @@ nav a img {
   background-color: #393a3b;
   padding: 20px;
   color: white;
+  height: 300px;
 }
 
-/* Première colonne vide */
+/* Première colonne vide avec largeur fixe de 150px */
 .footer .vide {
-  flex: 0 0 20px;
+  flex: 0 0 150px;
 }
 
-/* Colonnes 2 à 5 */
+/* Colonnes normales (2e et 3e) */
 .footer .colonne {
   flex: 1;
   display: flex;
@@ -351,12 +352,17 @@ nav a img {
   align-items: center;
 }
 
-/* Les paragraphes */
+/* Quatrième colonne avec largeur fixe de 150px */
+.footer .colonne-fixe {
+  flex: 0 0 150px;
+}
+
+/* Paragraphes */
 .footer .colonne p {
   margin: 0;
 }
 
-/* Espace entre le texte et les icônes */
+/* Icônes sous le texte */
 .footer .icones {
   display: flex;
   gap: 20px;
@@ -369,9 +375,13 @@ nav a img {
   height: 20px;
 }
 
-/* Dernière colonne : élément tout en bas */
+/* Cinquième colonne : alignement en bas et à droite */
 .footer .derniere {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end; /* colle à droite */
 }
 
 .footer .derniere p {
