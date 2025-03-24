@@ -36,12 +36,8 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
-  transition: color 0.3s;
 }
 
-nav a:hover {
-  color: #f39c12;
-}
 
 nav a img {
   width: 50px;
@@ -140,6 +136,32 @@ nav a img {
   right: 70px;
   bottom: 50px;
 }
+
+/*SECTION_PACKS_1*/
+.packs {
+  background-color: #ebe3d5;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.packs div {
+  text-align: center;
+  font-family: 'ubhuntu', sans-serif;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  font-size: 20px;
+}
+
+.packs img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 
 /*-----SECTION_CROISSANCE-----*/
 
