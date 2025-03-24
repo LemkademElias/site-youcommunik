@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo a img {
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+nav a img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background-color: #334d5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  width: 200px;
+  height: 200px;
+  margin-right: 100px; /* Gap of 50px between the image and text */
+}
+
+.banner-text {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the left */
+}
+
+.banner-text h1, .banner-text p {
+  margin: 0;
+  line-height: 80px;
+}
+
+.banner-text h1 {
+  font-size: 65px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.banner-text p {
+  font-size: 45px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+/*-----SECTION_ECLOSION-----*/
+
+.section-title {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;     /* Centre verticalement */
+  color: white;
+  padding: 10px;
+  width: 350px;
+  text-align: center;      /* Centre le texte à l'intérieur de l'élément */
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  background-color: #334d5c;
+  margin-left: auto;       /* Ajout pour centrer horizontalement */
+  margin-right: auto;      /* Ajout pour centrer horizontalement */
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 220px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;       /* Ajout pour centrer horizontalement */
+  margin-right: auto;      /* Ajout pour centrer horizontalement */
+  margin-bottom: 50px;
+}
+
+.section-content img {
+  width: 300px;
+  margin-left: 100px;
+  position: relative;
+  right: 150px;
+  top: 50px;
+}
+
+.section-content p {
+  font-size: 20px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(67, 67, 67);
+  width: 650px;
+  position: relative;
+  right: 70px;
+  bottom: 50px;
+}
+
+/*-----SECTION_CROISSANCE-----*/
+
+.section-title-croissance {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;     /* Centre verticalement */
+  color: white;
+  padding: 10px;
+  width: 350px;
+  text-align: center;      /* Centre le texte à l'intérieur de l'élément */
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  background-color: #334d5c;
+  margin-left: auto;       /* Ajout pour centrer horizontalement */
+  margin-right: auto;      /* Ajout pour centrer horizontalement */
+}
+
+.section-content-croissance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 220px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;       /* Ajout pour centrer horizontalement */
+  margin-right: auto;      /* Ajout pour centrer horizontalement */
+  margin-bottom: 50px;
+}
+
+.section-content-croissance img {
+  width: 300px;
+  margin-left: 100px;
+  position: relative;
+  right: 150px;
+  top: 50px;
+}
+
+.section-content-croissance p {
+  font-size: 20px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(67, 67, 67);
+  width: 650px;
+  position: relative;
+  right: 70px;
+  bottom: 50px;
+}
+
+/*-----SECTION_ENVOL-----*/
+
+.section-title-envol {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;     /* Centre verticalement */
+  color: white;
+  padding: 10px;
+  width: 350px;
+  text-align: center;      /* Centre le texte à l'intérieur de l'élément */
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  background-color: #334d5c;
+  margin-left: auto;       /* Ajout pour centrer horizontalement */
+  margin-right: auto;      /* Ajout pour centrer horizontalement */
+}
+
+.section-content-envol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 220px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;       /* Ajout pour centrer horizontalement */
+  margin-right: auto;      /* Ajout pour centrer horizontalement */
+  margin-bottom: 50px;
+}
+
+.section-content-envol img {
+  width: 300px;
+  margin-left: 100px;
+  position: relative;
+  right: 150px;
+  top: 50px;
+}
+
+.section-content-envol p {
+  font-size: 20px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(67, 67, 67);
+  width: 650px;
+  position: relative;
+  right: 70px;
+  bottom: 50px;
+}
+
+
